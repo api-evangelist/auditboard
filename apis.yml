@@ -1,8 +1,30 @@
 aid: auditboard
 name: AuditBoard
-description: AuditBoard is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk,
+  and compliance) SaaS platform used by more than half of the Fortune 500 to run
+  their audit, risk, and compliance programs. Its connected-risk suite spans
+  Controls Management (SOX), OpsAudit (operational/internal audit), RiskOversight
+  (enterprise/operational risk), CrossComply (IT risk and cybersecurity
+  compliance), ESG, RegComply (regulatory compliance), and AI Governance. Optro
+  exposes a developer platform at developer.auditboard.com (a login-gated ReadMe
+  portal) for programmatic access, plus documented integrations with systems such
+  as ServiceNow, Workiva, and Microsoft 365. AuditBoard was surfaced as a Battery
+  Ventures portfolio company and enriched here from its public web surface; the
+  API reference itself sits behind an end-user login, so no public OpenAPI is
+  captured.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.sanity.io/images/rmkwjgaf/production-churro/4dc2ef110eb5013e1f3a6ba590de3fdc26471fe1-1200x630.jpg
 url: https://raw.githubusercontent.com/api-evangelist/auditboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,66 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand: Optro (formerly AuditBoard) — primary web presence moved to optro.ai in 2026
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- GRC
+- Governance Risk Compliance
+- Audit Management
+- Risk Management
+- Compliance
+- Internal Audit
+- SOX
+- Cybersecurity Compliance
+- ESG
+- AI Governance
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://optro.ai/
+- type: DeveloperPortal
+  url: https://developer.auditboard.com/
+- type: Documentation
+  url: https://developer.auditboard.com/docs
+- type: APIReference
+  url: https://developer.auditboard.com/reference
+- type: GettingStarted
+  url: https://developer.auditboard.com/docs/getting-started-1
+- type: Blog
+  url: https://optro.ai/blog
+- type: Pricing
+  url: https://optro.ai/pricing
+- type: SignUp
+  url: https://login.auditboardapp.com/
+- type: Login
+  url: https://login.auditboardapp.com/
+- type: TermsOfService
+  url: https://optro.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://optro.ai/privacy-notice
+- type: Support
+  url: https://support.soxhub.com/hc/en-us
+- type: Integrations
+  url: https://optro.ai/integrations
+- type: TrustCenter
+  url: https://trust.optro.ai/
+- type: Compliance
+  url: https://trust.optro.ai/
+- type: DomainSecurity
+  url: security/auditboard-domain-security.yml
+- type: LLMsTxt
+  url: llms/auditboard-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

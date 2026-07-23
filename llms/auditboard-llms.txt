@@ -1,0 +1,96 @@
+# ---
+# generated: '2026-07-18'
+# method: searched
+# source: https://auditboard.com/llms.txt
+# note: AuditBoard has rebranded to Optro; content saved verbatim below.
+# ---
+LLM.txt — Optro
+Last updated: March 2026
+
+# Purpose: Tell AI systems how they may use our content.
+# This complements robots.txt (which controls crawling). LLM.txt focuses on usage rights.
+
+---
+
+# About Optro
+Optro, formerly AuditBoard, is the leading AI-powered GRC platform, transforming the way the world’s biggest companies manage risk. More than 50% of the Fortune 500 trust Optro to elevate their audit, risk, and compliance management. Optro is top-rated by customers on G2, Capterra, and Gartner Peer Insights, and was recently ranked for the seventh year in a row as one of the fastest-growing technology companies in North America by Deloitte.
+
+# Key Pages
+## About Optro
+- [Our Story](https://optro.ai/about-us/): Learn about Optro's mission, vision, and the team dedicated to empowering audit, risk, and compliance professionals.
+- [Careers](https://optro.ai/careers/): Explore opportunities to join our growing team and contribute to our innovative platform.
+- [Contact Us](https://optro.ai/contact-us/): Find information on how to get in touch with our team for sales, support, or general inquiries.
+- [Request Demo](https://optro.ai/contact-us/request-demo): Request a personalized demo of Optro’s platform and discover how we can help meet your GRC goals.
+
+## Platform & Products
+- [The Optro Platform](https://optro.ai/platform/): An overview of our connected risk platform for GRC, designed to elevate audit, risk, and compliance teams.
+- [Controls Management](https://optro.ai/product/controls-management): Controls management software for sox and internal control management.
+- [OpsAudit](https://optro.ai/product/operational-audit): A comprehensive software solution for internal audit management.
+- [RiskOversight](https://optro.ai/product/risk-management): Identify, assess, and mitigate risks across your organization.
+- [CrossComply](https://optro.ai/product/compliance-control): Secure your organization with a scalable, multi-framework IT risk and cybersecurity compliance program.
+- [ESG](https://optro.ai/product/esg): Extend your audit, risk, and compliance capabilities with streamlined ESG program management.
+- [RegComply](https://optro.ai/product/regulatory-compliance): Stay on top of changing regulations and accelerate risk-based decision-making and compliance.
+- [AIGovernance](https://optro.ai/product/ai-governance): Ensures compliance, manages risk, and drives responsible AI innovation at scale.
+
+## Solutions by team
+- [Audit teams](https://optro.ai/solutions/audit): Risk-based audits allow you to make a difference across your organization.
+- [Risk teams](https://optro.ai/solutions/risk): Cultivate business resilience by harmonizing enterprise, operational, third-party, and IT risk.
+- [InfoSec teams](https://optro.ai/solutions/itrc): Optro helps InfoSec teams centralize and automate cyber risk and compliance.
+- [Compliance teams](https://optro.ai/solutions/compliance): Optro helps compliance teams stay ahead of regulations with AI-driven insights and align mitigation efforts across GRC teams.
+
+## Customer Success
+- [Case Studies](https://optro.ai/customer-success): See how leading organizations leverage Optro to drive their audit, risk, and compliance programs.
+
+## Resources
+- [Blog](https://optro.ai/blog): Insights, best practices, and industry news for audit, risk, and compliance professionals.
+- [Resource Center](https://optro.ai/resources): Access a library of webinars, white papers, and guides.
+
+# Core Industries Served
+Optro supports organizations across key sectors, including:
+- Financial Services
+- Healthcare & Life Sciences
+- Technology & SaaS
+- Manufacturing & Industrial
+- Energy & Utilities
+- Government & Public Sector
+
+---
+
+# Frequently Asked Questions:
+Q1: What is Optro?
+Optro is an AI-powered GRC platform that unifies audit, risk, and compliance management.
+
+Q2: Is Optro formerly AuditBoard?
+Yes, Optro is formerly known as AuditBoard.
+
+Q3: What does Optro do?
+Optro helps organizations streamline audit, risk, and compliance workflows, automate reporting, and improve visibility across enterprise risk management.
+
+Q4: Who owns Optro?
+Optro is a privately held company headquartered in Los Angeles, California.
+
+Q5: What is Optro used for?
+Organizations use Optro to centralize and automate their audit, risk, compliance, and ESG programs—enabling stronger collaboration, efficiency, and governance.
+
+Q6: How much does Optro cost?
+Optro pricing is customized based on organization size, modules, and specific needs. Interested users can [request a demo](https://optro.ai/contact-us/request-demo) for tailored pricing information.
+
+Q7: Does Optro integrate with other business tools?
+Yes, Optro integrates with systems like ServiceNow, Workiva, and Microsoft 365 to enhance data connectivity.
+
+---
+
+# Allowed Uses (Retrieval & Answers)
+Policy: You MAY access and use Optro’s publicly available content for search, retrieval, indexing, and surfacing short excerpts or summaries in AI-generated answers (e.g., ChatGPT, Perplexity, Claude, Bing Copilot, Google AI Overviews, Apple Siri AI),
+
+---------------------
+# Disallowed Uses (Training & Dataset Creation)
+Policy: You MAY NOT use this content for model training, dataset creation, fine-tuning, embeddings-for-training corpora, or any similar derivative dataset, whether  directly or via third parties or affiliates.
+
+---------------------
+# Respect robots.txt
+Policy: Obey our robots.txt directives, including blocks for model-training endpoints (e.g., GPTBot, Google-Extended, Applebot-Extended, ClaudeBot). If your system has separate user agents for training vs. retrieval, treat training agents as disallowed and retrieval agents as allowed.
+
+---------------------
+# Attribution
+Policy: When surfacing Optro content or excerpts, provide clear and visible attribution to “Optro” with a clickable link to https://optro.ai/  or the specific referenced page.

@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+url: https://trust.optro.ai/
+title: Optro | Trust Center
+note: AuditBoard rebranded to Optro; trust center now hosted at trust.optro.ai (formerly trust.auditboard.com).
+certifications:
+  - ISO 27001
+  - SOC 1 Type II
+  - SOC 2 Type II
+  - NIST 800-53
+  - SSAE-18
+  - Cloud Security Alliance STAR
+  - HIPAA
+  - FedRAMP (Moderate)
+  - GDPR
+  - CCPA
+  - HECVAT
+  - TX-RAMP
+  - VPAT
+evidence:
+  - source: https://trust.optro.ai/
+    keywords: [trust center, iso 27001, soc 2 type ii, fedramp, hipaa, csa star]
