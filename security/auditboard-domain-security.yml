@@ -1,34 +1,23 @@
-generated: '2026-07-18'
+generated: '2026-10-20'
 method: probed
-source: dig + openssl/curl HEAD against live hosts
-note: AuditBoard rebranded to Optro; primary web host is now optro.ai. developer.auditboard.com serves the (login-gated) developer portal.
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
-  - host: optro.ai
-    https: true
-    tls_version: TLSv1.3
-    cert_not_after: '2026-09-18'
-    hsts: true
-    hsts_max_age: 300
-    hsts_include_subdomains: true
-    hsts_preload: true
-  - host: developer.auditboard.com
-    https: true
-    tls_version: TLSv1.3
-    cert_not_after: '2026-10-02'
-    hsts: true
-    hsts_max_age: 31536000
-    hsts_include_subdomains: false
-    hsts_preload: false
+- host: optro.ai
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Jan 16 10:33:47 2027 GMT
+  hsts: true
+  hsts_max_age: 300
 domains:
-  - domain: optro.ai
-    dnssec: false
-    caa: ['pki.goog', 'sectigo.com', 'amazon.com', 'certainly.com', 'digicert.com', 'letsencrypt.org']
-    spf: true
-    dmarc: true
-    dmarc_policy: reject
-  - domain: auditboard.com
-    dnssec: false
-    caa: ['letsencrypt.org', 'pki.goog', 'sectigo.com', 'amazon.com', 'certainly.com', 'digicert.com']
-    spf: true
-    dmarc: true
-    dmarc_policy: reject
+- domain: optro.ai
+  dnssec: false
+  caa:
+  - 0 issue "amazon.com"
+  - 0 issue "certainly.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "sectigo.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: reject

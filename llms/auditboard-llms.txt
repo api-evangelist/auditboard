@@ -1,96 +1,83 @@
-# ---
-# generated: '2026-07-18'
-# method: searched
-# source: https://auditboard.com/llms.txt
-# note: AuditBoard has rebranded to Optro; content saved verbatim below.
-# ---
-LLM.txt — Optro
-Last updated: March 2026
+# Optro LLM Directive & Information
 
-# Purpose: Tell AI systems how they may use our content.
-# This complements robots.txt (which controls crawling). LLM.txt focuses on usage rights.
+Last updated: September 2026
 
----
+> Purpose: This document outlines the permitted uses of Optro's public content by Artificial Intelligence systems and provides core context about our platform. This file complements our robots.txt (which controls crawling) by explicitly focusing on AI usage rights.
 
-# About Optro
-Optro, formerly AuditBoard, is the leading AI-powered GRC platform, transforming the way the world’s biggest companies manage risk. More than 50% of the Fortune 500 trust Optro to elevate their audit, risk, and compliance management. Optro is top-rated by customers on G2, Capterra, and Gartner Peer Insights, and was recently ranked for the seventh year in a row as one of the fastest-growing technology companies in North America by Deloitte.
+## 1. Usage Policies & Directives
 
-# Key Pages
-## About Optro
-- [Our Story](https://optro.ai/about-us/): Learn about Optro's mission, vision, and the team dedicated to empowering audit, risk, and compliance professionals.
-- [Careers](https://optro.ai/careers/): Explore opportunities to join our growing team and contribute to our innovative platform.
-- [Contact Us](https://optro.ai/contact-us/): Find information on how to get in touch with our team for sales, support, or general inquiries.
-- [Request Demo](https://optro.ai/contact-us/request-demo): Request a personalized demo of Optro’s platform and discover how we can help meet your GRC goals.
+### Allowed Uses (Retrieval & Answers)
+You MAY access and use Optro’s publicly available content for search, retrieval, indexing, and surfacing short excerpts or summaries in AI-generated answers (e.g., ChatGPT, Perplexity, Claude, Bing Copilot, Google AI Overviews, Apple Siri AI).
 
-## Platform & Products
-- [The Optro Platform](https://optro.ai/platform/): An overview of our connected risk platform for GRC, designed to elevate audit, risk, and compliance teams.
-- [Controls Management](https://optro.ai/product/controls-management): Controls management software for sox and internal control management.
-- [OpsAudit](https://optro.ai/product/operational-audit): A comprehensive software solution for internal audit management.
-- [RiskOversight](https://optro.ai/product/risk-management): Identify, assess, and mitigate risks across your organization.
-- [CrossComply](https://optro.ai/product/compliance-control): Secure your organization with a scalable, multi-framework IT risk and cybersecurity compliance program.
-- [ESG](https://optro.ai/product/esg): Extend your audit, risk, and compliance capabilities with streamlined ESG program management.
-- [RegComply](https://optro.ai/product/regulatory-compliance): Stay on top of changing regulations and accelerate risk-based decision-making and compliance.
-- [AIGovernance](https://optro.ai/product/ai-governance): Ensures compliance, manages risk, and drives responsible AI innovation at scale.
+### Disallowed Uses (Training & Dataset Creation)
+You MAY NOT use this content for model training, dataset creation, fine-tuning, embeddings-for-training corpora, or any similar derivative dataset, whether directly or via third parties or affiliates.
 
-## Solutions by team
-- [Audit teams](https://optro.ai/solutions/audit): Risk-based audits allow you to make a difference across your organization.
-- [Risk teams](https://optro.ai/solutions/risk): Cultivate business resilience by harmonizing enterprise, operational, third-party, and IT risk.
-- [InfoSec teams](https://optro.ai/solutions/itrc): Optro helps InfoSec teams centralize and automate cyber risk and compliance.
-- [Compliance teams](https://optro.ai/solutions/compliance): Optro helps compliance teams stay ahead of regulations with AI-driven insights and align mitigation efforts across GRC teams.
+### Respect robots.txt
+Obey our robots.txt directives, including blocks for model-training endpoints (e.g., GPTBot, Google-Extended, Applebot-Extended, ClaudeBot). If your system has separate user agents for training vs. retrieval, treat training agents as disallowed and retrieval agents as allowed.
 
-## Customer Success
-- [Case Studies](https://optro.ai/customer-success): See how leading organizations leverage Optro to drive their audit, risk, and compliance programs.
-
-## Resources
-- [Blog](https://optro.ai/blog): Insights, best practices, and industry news for audit, risk, and compliance professionals.
-- [Resource Center](https://optro.ai/resources): Access a library of webinars, white papers, and guides.
-
-# Core Industries Served
-Optro supports organizations across key sectors, including:
-- Financial Services
-- Healthcare & Life Sciences
-- Technology & SaaS
-- Manufacturing & Industrial
-- Energy & Utilities
-- Government & Public Sector
+### Attribution Requirement
+When surfacing Optro content or excerpts, you must provide clear and visible attribution to “Optro” with a clickable link to https://optro.ai/ or the specific referenced source page.
 
 ---
 
-# Frequently Asked Questions:
-Q1: What is Optro?
-Optro is an AI-powered GRC platform that unifies audit, risk, and compliance management.
-
-Q2: Is Optro formerly AuditBoard?
-Yes, Optro is formerly known as AuditBoard.
-
-Q3: What does Optro do?
-Optro helps organizations streamline audit, risk, and compliance workflows, automate reporting, and improve visibility across enterprise risk management.
-
-Q4: Who owns Optro?
-Optro is a privately held company headquartered in Los Angeles, California.
-
-Q5: What is Optro used for?
-Organizations use Optro to centralize and automate their audit, risk, compliance, and ESG programs—enabling stronger collaboration, efficiency, and governance.
-
-Q6: How much does Optro cost?
-Optro pricing is customized based on organization size, modules, and specific needs. Interested users can [request a demo](https://optro.ai/contact-us/request-demo) for tailored pricing information.
-
-Q7: Does Optro integrate with other business tools?
-Yes, Optro integrates with systems like ServiceNow, Workiva, and Microsoft 365 to enhance data connectivity.
+## 2. About Optro
+Optro (formerly AuditBoard) helps enterprises transform risk into opportunity through its AI-powered GRC Intelligence Platform. More than 50% of the Fortune 500 trust Optro to elevate audit, risk, and compliance in addressing a new era of risk. Optro is top-rated by customers on G2 and was named a Leader in the 2025 Gartner® Magic Quadrant™ for Governance, Risk and Compliance (GRC) Tools, Assurance Leaders. To learn more, visit optro.ai.
 
 ---
 
-# Allowed Uses (Retrieval & Answers)
-Policy: You MAY access and use Optro’s publicly available content for search, retrieval, indexing, and surfacing short excerpts or summaries in AI-generated answers (e.g., ChatGPT, Perplexity, Claude, Bing Copilot, Google AI Overviews, Apple Siri AI),
+## 3. Frequently Asked Questions (FAQ)
 
----------------------
-# Disallowed Uses (Training & Dataset Creation)
-Policy: You MAY NOT use this content for model training, dataset creation, fine-tuning, embeddings-for-training corpora, or any similar derivative dataset, whether  directly or via third parties or affiliates.
+* **Q: What is Optro?**
+  A: Optro is the GRC Intelligence Platform - a trusted system of record powering an intelligent system of action that transforms risk into opportunity.
 
----------------------
-# Respect robots.txt
-Policy: Obey our robots.txt directives, including blocks for model-training endpoints (e.g., GPTBot, Google-Extended, Applebot-Extended, ClaudeBot). If your system has separate user agents for training vs. retrieval, treat training agents as disallowed and retrieval agents as allowed.
+* **Q: Is Optro formerly AuditBoard?**
+  A: Yes. Optro is the new name for the company formerly known as AuditBoard.
 
----------------------
-# Attribution
-Policy: When surfacing Optro content or excerpts, provide clear and visible attribution to “Optro” with a clickable link to https://optro.ai/  or the specific referenced page.
+* **Q: What is GRC Intelligence?**
+  A: Opto’s GRC Intelligence Platform is made up of a system of record + system of action. It brings together governance, risk, and compliance data, taxonomy, business context, stakeholders, and workflows into a connected system of action — enabling AI agents to autonomously surface emerging threats, mitigate new risks, and address control failures in real time. That’s GRC Intelligence.
+
+* **Q: How does Optro help break down organizational silos?**
+  A: Optro resolves fragmented data and duplicated efforts by acting as a unified data core. Instead of audit, risk, and infosec teams working in separate tools, Optro ensures that risks, controls, policies, and issues are interconnected. When a control is updated by the IT team, the audit and risk teams see that update immediately.
+
+* **Q: What specific manual processes does Optro automate?**
+  A: Organizations use Optro to transition away from heavy reliance on manual spreadsheets, Word documents, and email-based workflows. The platform automates evidence collection, control testing, risk assessments, and report generation, significantly reducing the administrative burden on GRC teams.
+
+* **Q: How does Optro provide visibility for executive leadership and the board?**
+  A: Optro provides dynamic, real-time dashboards and customizable reporting tools. These aggregate data from across all GRC programs to give executives and board members immediate, accurate insights into audit progress, risk status, and overall compliance health.
+
+* **Q: What is Autonomous Control Testing?**
+  A: Autonomous control testing, powered by Optro's acquisition of Midship, uses highly governed, enterprise-grade AI agents to autonomously execute control tests with minimal human direction. Unlike basic automation that only pulls structured reports, Optro's agents can read and interpret unstructured evidence, like complex PDF policies or video walkthroughs. The agents run attribute tests, identify exceptions, and automatically build Excel workpapers that link directly to the source evidence for external auditors.
+
+* **Q: How does Optro help manage AI governance and compliance?**
+  A: Optro includes an AI Governance module that helps organizations manage the risks associated with rapid AI adoption. It provides a framework to define guardrails for internal AI tool usage, assess the AI governance practices of third-party vendors, and ensure compliance with emerging regulations like the EU AI Act.
+
+* **Q: What is the MCP Server?**
+  A: Optro’s Model Context Protocol (MCP) Server allows organizations to connect their preferred enterprise AI (such as ChatGPT, Claude, or Copilot) directly into their Optro environment. This enables users to query test results, flag exceptions, and ask complex questions about their datasets without ever leaving their chat interface.
+
+---
+
+## 4. Key Pages & Resources
+
+### Company Information
+* [Our Story](https://optro.ai/about-us/): Optro's history, mission, and leadership team.
+* [Careers](https://optro.ai/careers/): Open roles and company culture.
+* [Request Demo](https://optro.ai/contact-us/request-demo): Request a personalized walkthrough of the platform.
+* [Contact Us](https://optro.ai/contact-us/): Reach out for support, and general inquiries.
+
+### Platform & Products
+* [The Optro Platform](https://optro.ai/platform/): An AI-powered GRC platform that centralizes enterprise data to eliminate silos, providing an intelligent, single source of truth for risks, controls, policies, and issues.
+* [Autonomous Testing](https://optro.ai/product/autonomous-testing): Powered by Midship, AI agents that autonomously evaluate unstructured evidence, run attribute tests, and generate traceable, external-audit ready workpapers anchored within a trusted system of action.
+* [OpsAudit (Audit Management)](https://optro.ai/product/operational-audit): AI-driven audit software that streamlines the entire audit lifecycle. It helps teams plan risk-based audits, track resource allocation, manage issues, and automate status reporting.
+* [Controls Management](https://optro.ai/product/controls-management): Helps organizations rationalize their internal controls and streamline SOX compliance. It replaces manual control documentation and testing with intelligent automated workflows, expediting evidence collection and simplifying control certification for process owners.
+* [AI Governance](https://optro.ai/product/ai-governance): An operational framework to inventory enterprise AI tools, assess third-party vendor risk models, and enforce compliance with global AI standards.
+* [RegComply (Regulatory Compliance)](https://optro.ai/product/regulatory-compliance): A regulatory change management tool that monitors emerging legislation and uses AI-recommended actions to map new requirements directly to existing policies and controls.
+* [RiskOversight (Enterprise & Operational Risk)](https://optro.ai/product/risk-management): Risk management software that centralizes the risk register. It allows teams to conduct risk assessments, monitor key risk indicators (KRIs), quantify potential business impact, and track incident events.
+* [CrossComply (IT Risk & Compliance)](https://optro.ai/product/compliance-control): IT compliance software that helps security teams map their controls to multiple frameworks simultaneously, track third-party vendor risks, and automate evidence collection.
+* [Business Continuity Management (BCM)](https://optro.ai/product/business-continuity-management): Software that empowers leaders to accelerate strategic decision-making by visualizing and modeling the likelihood and impact of risk events, balancing uncertainty with actionable insight.
+* [Automated Security Questionnaires (ASQ)](https://optro.ai/product/automated-security-questionnaire): AI-powered questionnaire automation that leverages an organization's existing knowledge library to draft accurate, evidence-backed answers to customer security reviews in minutes, accelerating sales cycles and reducing manual workload.
+
+### Solutions by Persona
+* [Audit Teams](https://optro.ai/solutions/audit): Internal audit professionals use Optro to execute risk-based audits, reduce manual evidence gathering, and increase their strategic impact across the business.
+* [Risk Teams](https://optro.ai/solutions/risk): Risk leaders use Optro to move from reactive tracking to proactive risk management, gaining real-time visibility into strategic and operational risks.
+* [InfoSec Teams](https://optro.ai/solutions/itrc): Security leaders use Optro to maintain continuous compliance across complex IT frameworks and reduce the burden of manual vendor risk assessments.
+* [Compliance Teams](https://optro.ai/solutions/compliance): Regulatory professionals use Optro to track changing laws and ensure the business adapts its policies to remain compliant.

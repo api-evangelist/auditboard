@@ -1,18 +1,6 @@
 aid: auditboard
 name: AuditBoard
-description: >-
-  AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk,
-  and compliance) SaaS platform used by more than half of the Fortune 500 to run
-  their audit, risk, and compliance programs. Its connected-risk suite spans
-  Controls Management (SOX), OpsAudit (operational/internal audit), RiskOversight
-  (enterprise/operational risk), CrossComply (IT risk and cybersecurity
-  compliance), ESG, RegComply (regulatory compliance), and AI Governance. Optro
-  exposes a developer platform at developer.auditboard.com (a login-gated ReadMe
-  portal) for programmatic access, plus documented integrations with systems such
-  as ServiceNow, Workiva, and Microsoft 365. AuditBoard was surfaced as a Battery
-  Ventures portfolio company and enriched here from its public web surface; the
-  API reference itself sits behind an end-user login, so no public OpenAPI is
-  captured.
+description: AuditBoard (rebranded in 2026 as Optro) is an AI-powered GRC (governance, risk, and compliance) SaaS platform used by more than half of the Fortune 500 to run their audit, risk, and compliance programs. Its connected-risk suite spans Controls Management (SOX), OpsAudit (operational/internal audit), RiskOversight (enterprise/operational risk), CrossComply (IT risk and cybersecurity compliance), ESG, RegComply (regulatory compliance), and AI Governance. Optro exposes a developer platform at developer.auditboard.com (a login-gated ReadMe portal) for programmatic access, plus documented integrations with systems such as ServiceNow, Workiva, and Microsoft 365. AuditBoard was surfaced as a Battery Ventures portfolio company and enriched here from its public web surface; the API reference itself sits behind an end-user login, so no public OpenAPI is captured.
 deliveryModel:
   model: saas
   open_source: false
@@ -41,8 +29,8 @@ x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 x-rebrand: Optro (formerly AuditBoard) — primary web presence moved to optro.ai in 2026
 specificationVersion: '0.23'
 created: '2026-07-17'
@@ -76,13 +64,24 @@ tags_raw:
 - ESG
 - AI Governance
 - SaaS
-apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Hosts
+  url: hosts/auditboard-hosts.yml
+- type: IntegrationEdges
+  url: integrations/auditboard-integration-edges.yml
+- type: Vendors
+  url: vendors/auditboard-vendors.yml
+- type: Newsroom
+  url: https://optro.ai/news
+- type: GitHubOrganization
+  url: https://github.com/optro
+- type: TrustCenter
+  url: security/auditboard-trust-center.yml
 - type: Website
   url: https://optro.ai/
 - type: DeveloperPortal
@@ -117,8 +116,21 @@ common:
   url: security/auditboard-domain-security.yml
 - type: LLMsTxt
   url: llms/auditboard-llms.txt
+apis: []
 x-enrichment:
-  date: '2026-07-19'
-  status: backfilled
-  pass: local-v1
-  note: backfilled from .gitignore signal + verified work evidence
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v5
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: developer.auditboard.com (ReadMe portal), including /openapi.json and /llms.txt, redirects every request to an Azure AD SAML login at login.microsoftonline.com, so the API reference is visible only to signed-in Optro customers.
+  evidence:
+  - url: https://developer.auditboard.com/
+    status: 302
+  - url: https://developer.auditboard.com/openapi.json
+    status: 302
+  - url: https://optro.ai/pricing
+    status: 200
+  checked: '2026-10-20'

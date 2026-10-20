@@ -1,3 +1,19 @@
+generated: '2026-10-20'
+method: searched
+source:
+- slack/integrations/slack-integration-edges.yml
+- https://zapier.com/apps/auditboard/integrations
+- https://n8n.io/integrations/auditboard/
+- https://composio.dev/toolkits/auditboard
+- https://monid.ai/tools/auditboard
+checked:
+- slack/integrations/slack-integration-edges.yml
+- https://composio.dev/toolkits/auditboard
+- https://monid.ai/tools/auditboard
+- https://n8n.io/integrations/auditboard/
+- https://zapier.com/apps/auditboard/integrations
+summary: null
+marketplace_apps: []
 edges:
 - partner_name: Slack (own)
   partner: slack
@@ -16,9 +32,4 @@ edges:
   detected: '2026-10-18'
   detected_by: mirror-platform-listings.py
   category: Slack app
-generated: '2026-10-18'
-method: searched
-source:
-- slack/integrations/slack-integration-edges.yml
-checked:
-- slack/integrations/slack-integration-edges.yml
+templates: []

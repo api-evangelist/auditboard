@@ -1,0 +1,12 @@
+name: AuditBoard pricing
+generated: '2026-10-20'
+method: searched
+source: https://optro.ai/pricing
+audience: business-product
+pricing_basis: negotiated
+published: false
+delivery:
+  delivery: managed
+plan_count: 0
+plans: []
+note: The Optro (AuditBoard) pricing page publishes no tiers or prices; it presents ROI claims and a "SCHEDULE A DEMO" call to action only.
